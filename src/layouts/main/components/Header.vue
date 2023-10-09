@@ -8,8 +8,6 @@
         </div>
         
         <div class="operation-bar">
-            <span>线路</span>
-            
             <span>客服</span>
             <span>消息</span>
             <span>问题反馈</span>

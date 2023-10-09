@@ -11,7 +11,7 @@ export const THEME = {
     gaoyi: {
         ...colors,
         primary: 'var(--primary)',
-        dark: '#131313',
+        dark: '#20233d',
         grey: '#f7f7f7',
         raise: 'var(--raise)',
         fall: 'var(--fall)',

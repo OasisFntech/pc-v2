@@ -2,7 +2,3 @@
 #render-loading {
     @apply w-full h-full;
 }
-
-:root {
-    --primary: #447DF6;
-}

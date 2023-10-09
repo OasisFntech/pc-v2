@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full h-full min-w-[1200px] min-h-[800px] flex bg-black">
+    <div class="w-full h-full min-w-[1200px] min-h-[800px] flex">
         <Aside />
 
         <div class="w-1 flex-1">
