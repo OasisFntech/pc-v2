@@ -8,6 +8,8 @@ import { resolve } from 'node:path'
 export default defineConfig({
     server: {
         port: 8899,
+        host: true,
+        open: true,
         proxy: {
             '/api': {
                 target: 'http://47.242.95.133:21004',

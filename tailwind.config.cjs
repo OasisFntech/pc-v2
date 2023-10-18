@@ -12,13 +12,11 @@ export const THEME = {
         ...colors,
         primary: 'var(--primary)',
         dark: '#20233d',
-        grey: '#f7f7f7',
+        grey: '#f2f6fa',
         raise: 'var(--raise)',
         fall: 'var(--fall)',
         text: '#b2a290',
-        active: 'var(--primary)',
-        card: '#36302b',
-        card_title: '#e1c29e'
+        active: 'var(--primary)'
     }
 }
 
