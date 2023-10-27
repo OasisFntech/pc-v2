@@ -8,6 +8,8 @@
             <div class="main-content">
                 <router-view />
             </div>
+            
+            <RealTime />
         </div>
     </div>
 
@@ -40,6 +42,7 @@ import { storeToRefs } from 'pinia'
 
 import Aside from './components/Aside.vue'
 import Header from './components/Header.vue'
+import RealTime from './components/RealTime.vue'
 import { usePopupStore } from 'frontend_common/store'
 
 const popupStore = usePopupStore(),
@@ -60,8 +63,11 @@ defineOptions({ name: 'MainLayout' })
 }
 
 .main-content {
-    /* header 48px */
-    height: calc(100% - 48px);
-    @apply p-2.5;
+    /*
+        header 48px
+        realTime 32px
+    */
+    height: calc(100% - 48px - 32px);
+    @apply p-2.5 overflow-auto bg-[#fafafa];
 }
 </style>
